@@ -147,6 +147,24 @@ $(document).ready(function(){
     },
   });
 
+   $("#EnterGame").on({
+    mouseenter: function(){
+      $(this).addClass("animated shake");
+    },
+    mouseleave: function(){
+      $(this).removeClass("animated shake");
+    },
+  });
+
+    $("#Facebook").on({
+    mouseenter: function(){
+      $(this).addClass("animated shake");
+    },
+    mouseleave: function(){
+      $(this).removeClass("animated shake");
+    },
+  });
+
     $("#041").on({
     mouseenter: function(){
       $(this).addClass("animated rubberBand");
